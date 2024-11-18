@@ -48,7 +48,7 @@ def main():
     
     # Load Excel data
     name_list = load_name_list_from_excel(
-        'data/part_number_app_data.xlsx', 
+        'part_number_app_data.xlsx', 
         'Sheet1', 
         'NAME LIST'
     )
