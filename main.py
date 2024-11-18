@@ -80,7 +80,7 @@ def main():
     
     # Load Excel data and create search index
     name_list, search_index = load_name_list_from_excel(
-        'data/part_number_app_data.xlsx',
+        'part_number_app_data.xlsx',
         'Sheet1',
         'NAME LIST'
     )
